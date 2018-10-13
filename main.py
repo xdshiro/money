@@ -5,7 +5,7 @@ import scipy
 import pylab
 import numpy as np
 from scipy.fftpack import fft,ifft
-fileNAME='USD'
+fileNAME='USD123123'
 fl_open=open(fileNAME,'r')
 ZZZ=np.loadtxt(fl_open,dtype=complex)
 fl_open.close()
